@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>史记</title>
+    <link rel="manifest" href="./manifest.json">
+    <script src="./lib.js"></script>
+<style>
+html,body {
+    margin: 0px;
+    padding: 0px;
+}
+</style>
+</head>
+<body>
+     <div id = "label">
+    </div>
+    <div id="container">
+    </div>
+    <script>
+        (function() {
+           var el = document.getElementById("container")
+           //var tar = "http://127.0.0.1:8100/static/shiji.tar"
+           var tar = "./shiji.tar"
+           var name = "史记"
+           sand.default(el, tar, name)
+        })()
+    </script>
+</body>
+
+</html>
